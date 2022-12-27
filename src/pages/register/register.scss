@@ -1,0 +1,98 @@
+.register{
+    height: 100vh;
+    background: url("https://th.bing.com/th/id/R.191893d10cbdd2be757edafa17bc1cbf?rik=EKD9iv3WNsAjdA&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2015%2f12%2f297102-digital_art-landscape-city-glowing-science_fiction-fantasy_art.jpg&ehk=nikAEa1LGNHKcXC17l2NTnz8S%2bDdkrcZUcW6d2e9qhI%3d&risl=1&pid=ImgRaw&r=0");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        display: flex;
+        align-items:center;
+        background-color: white;
+        width: 50%;
+        min-height: 70%;
+        border-radius: 30px;
+        .left{
+            flex: 1;
+            
+            display:flex;
+            flex-direction: column;
+            
+            
+            padding-left: 40px;
+            
+            color: rgb(200, 100, 200);
+            overflow: hidden;
+            background-size: cover;
+            background-position-x: right;
+            
+            
+            h1{
+                
+            }
+            form{
+                display:flex;
+                flex-direction: column;
+                width: 60%;
+                padding-top: 30px;;
+                gap: 30px;
+
+                input{
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                }
+            }
+            button{
+                border: none;
+                margin-top: 30px;
+                width: 50%;
+                background-color: rgb(200, 100, 250);
+                color:white;
+                font-weight: bold;
+                height: 30px;
+                border-radius: 10px;
+                
+            }
+            p{
+
+            }
+        }
+        .right{
+            flex:1;
+            background:linear-gradient(rgba(200, 100, 200, 0.4), rgba(200, 100, 200, 0.4)), url("https://cdn.wallpapersafari.com/93/42/t5xVv7.jpg");
+            background-size: cover;
+            background-position: right;
+            height: 500px;
+            overflow: hidden;
+            width: 50%;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            gap: 30px;
+
+            h1{
+                font-size: 100px;
+            }
+            p{}
+            button{
+                width: 50%;
+                align-self: center;background-color: white;
+                border: none;
+                color:rgb(200, 100, 200);
+                font-weight: bold;
+                height: 30px;
+                border-radius: 10px;
+                cursor: pointer;
+
+
+            }
+            span{}
+
+        }
+    }
+}

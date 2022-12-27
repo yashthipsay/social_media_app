@@ -1,0 +1,47 @@
+.leftbar{
+    position:sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+    overflow: scroll;
+    flex: 2;
+    &::-webkit-scrollbar{
+        display:none;
+    }
+    .container{
+       
+        hr{
+            margin: 10px 5px;
+            border: none;
+            width: 100px;
+            background-color: lightgray;
+            height: 1px;
+            padding-left: 46px;
+        }
+        .menu{
+            display: flex;
+            flex-direction: column;
+            padding-left: 20px;
+            gap: 20px;
+            span{
+                font-size: 12px;
+            }
+            
+            .user{
+                display: flex;
+                align-items: center;
+                
+            }
+            .item{
+                display: flex;
+                align-items: center;
+               
+                
+                
+                span{
+                    font-size: 15px;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+}

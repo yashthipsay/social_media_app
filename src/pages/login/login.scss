@@ -1,0 +1,94 @@
+.login{
+    height: 100vh;
+    background: url("https://th.bing.com/th/id/R.adcc6a242f87a7ad17e8863743dab6d8?rik=J8BmeSsoU6KMCg&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2017%2f03%2f29%2f488307-digital_art-artwork-cityscape-fantasy_art-DeviantArt-fantasy_city.jpg&ehk=ZH1rPjRDnyMpRh3FdH1j8qJteA5gyLN5tTxL5uI68FY%3d&risl=&pid=ImgRaw&r=0");
+    background-size:100%;
+    background-position: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .card{
+        display:flex;
+        align-items: center;
+        background-color: white;
+        width: 50%;
+        border-radius: 30px;
+        min-height: 70%;
+        .left{
+            height: 400px;
+           width: 50%;
+            flex: 1;
+            background: linear-gradient(rgba(200, 100, 200, 0.6), rgba(200, 100, 200, 0.6)), url("https://wallup.net/wp-content/uploads/2016/01/49188-fantasy_art.jpg");
+            background-size: cover;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            background-position: 50%;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            overflow: hidden;
+
+            
+            h1{
+                font-size: 100px;
+                line-height: 100px;
+                
+                
+            }
+            p{
+                padding-top: 20px;
+                font-weight:bold;
+            }
+            span{padding-top: 20px;
+            font-size: 0.85em;}
+            button{
+                border: none;
+                color:rgb(200, 100, 250);
+                width: 50%;
+                font-weight: bold;
+                cursor: pointer;
+                align-self: center;
+                border-radius: 20px;
+                height: 40px;
+                margin-top: 20px;
+            }
+        }
+        .right{
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color:rgb(200, 100, 200);
+            
+            h1{}
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                
+                input{
+                    border-right: none;
+                    border-left: none;
+                    border-top: none;
+                    margin-top: 10px;
+                    
+                }
+                button{
+                    margin-top: 20px;
+                    border: none;
+                    background-color: rgb(200, 100, 200);
+                    width: 50%;
+                    align-self: center;
+                    color: white;
+                    font-weight: bold;
+                    border-radius: 20px;
+                    height: 30px;
+                    
+                } 
+            }
+        }
+    }
+}

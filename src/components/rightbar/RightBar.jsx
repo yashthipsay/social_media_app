@@ -9,7 +9,7 @@ const RightBar = ()=>{
                     <div className="user">
                         <div className="userinfo">
                             <img src="https://i.pinimg.com/736x/7f/84/87/7f8487bb71d3d9b375ff4729f71415c5.jpg" alt="" />
-                            <span>Vedhas</span>
+                            <span>User 1</span>
                         </div>
                         <div className="buttons">
                             <button>Follow</button>
@@ -19,7 +19,7 @@ const RightBar = ()=>{
                     <div className="user">
                         <div className="userinfo">
                             <img src="https://th.bing.com/th/id/OIP.-nE-rrZY5Ylii9qyvFXbLgHaLC?pid=ImgDet&rs=1" alt="" />
-                            <span>Tejas</span>
+                            <span>User 2</span>
                         </div>
                         <div className="buttons">
                             <button>Follow</button>
@@ -33,7 +33,7 @@ const RightBar = ()=>{
                         <div className="userinfo">
                             <img src="https://i.pinimg.com/736x/7f/84/87/7f8487bb71d3d9b375ff4729f71415c5.jpg" alt="" />
                             <p>
-                                <span>Vedhas</span> changed their status
+                                <span>User 1</span> changed their status
                             </p>
                             
                         </div>
@@ -47,7 +47,7 @@ const RightBar = ()=>{
                             
                             
                             <img src="https://th.bing.com/th/id/OIP.-nE-rrZY5Ylii9qyvFXbLgHaLC?pid=ImgDet&rs=1" alt="" />
-                            <span>Tejas</span>
+                            <span>User 2</span>
                             <div className="online">
                             
                             </div>
@@ -59,7 +59,7 @@ const RightBar = ()=>{
                             
                             
                             <img src="https://th.bing.com/th/id/OIP.bF57BuRosYPuXrK_xJzOQAHaHc?pid=ImgDet&rs=1" alt="" />
-                            <span>Sumedh</span>
+                            <span>User 3</span>
                             <div className="online">
                             
                             </div>

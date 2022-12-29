@@ -4,7 +4,7 @@ $themes: (
         bg: white,
         logo: darkblue,
         bgSoft: #f6f3f3,
-        texxtColorsoft: #555,
+        textColorsoft: #555,
         border: lightgray,
     ),
     dark: (
@@ -12,13 +12,31 @@ $themes: (
         bg: #222,
         logo: white,
         bgSoft: #333,
-        texxtColorsoft: lightgray,
+        textColorsoft: lightgray,
         border: #444,
+    ),
+    sunset: (
+        bg: rgb(54, 63, 166),
+        textColor: rgb(255, 255, 255),
+        
+        logo: rgb(255, 255, 255),
+        bgSoft: rgb(80, 148, 230),
+        textColorsoft: #555,
+        border: rgb(89, 197, 236),
+    ),
+    red_hot: (
+        bg: rgb(216, 14, 41),
+        textColor: rgb(255, 255, 255),
+        
+        logo: rgb(255, 255, 255),
+        bgSoft: rgb(228, 101, 96),
+        textColorsoft: #555,
+        border: rgb(240, 127, 125),
     ),
 );
 
 
-//The function below will iterate through the components and accordingly give color to it
+//The function below will iterate through the components and accordingly give color
 @mixin themify($themes){
     @each $theme, $map in $themes {
         .theme-#{$theme} & {

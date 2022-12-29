@@ -11,6 +11,7 @@
     border-bottom: 1px solid lightgray;
     position:sticky;
     top: 0;
+    z-index: 2;
     color: themed("logo");
     
     
@@ -18,8 +19,33 @@
         display:flex;
         align-items: center;
         gap: 30px;
+        img{
+            border-radius: 50%;
+        }
         span{
             color: themed("logo");
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+            .dropdown-content{
+                position: absolute;
+                display: none;
+                background-color: black;
+                width: 20px;
+                height: 50px;
+                padding: 10px 10px;
+                
+                z-index: 5;
+
+
+            }
+            :hover{
+                .dropdown-content{
+                    display:block;
+                    
+                }
+            }
         }
 
         .search{

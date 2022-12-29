@@ -10,18 +10,21 @@ import {Link} from "react-router-dom"
 import Email from "@mui/icons-material/Email";
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import { DarkModeContext } from "../../context/darkModeContext";
+import LightModeIcon from '@mui/icons-material/LightMode';
+import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import { useContext } from "react";
 const NavBar = ()=>{
 
-    const { toggle } = useContext(DarkModeContext);
+    const { toggle, darkMode } = useContext(DarkModeContext);
     return(
         <div className="navbar">
             <div className="left">
                 <Link to = "/" style={{textDecoration: "none"}}>
-                    <span >OrBIT</span>
+                    <img src="https://th.bing.com/th/id/OIP._Z2tsSUtsQw2oZGrNNXQiQHaHa?pid=ImgDet&rs=1" alt="" style={{height: "50px", width: "50px"}} />
                     </Link>
                     <HomeIcon/>
-                    <DarkModeIcon onClick={toggle}/>
+                    {darkMode ? <DarkModeIcon onClick={toggle}/> : WbSunnyIcon}
+                    <LightModeIcon/>
                     <AppsIcon/>
                     <div className="search">
                         <SearchIcon/>

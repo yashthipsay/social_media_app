@@ -4,15 +4,18 @@ import PersonIcon from '@mui/icons-material/Person';
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import TimerIcon from '@mui/icons-material/Timer';
+import { useContext } from "react";
+import { AuthContext } from "../../context/authContext";
 
 const LeftBar = () => {
+    const {currentUser} = useContext(AuthContext);
     return(
         <div className="leftbar">
             <div className="container">
                 <div className="menu">
                     <div className="user">
                         <PersonIcon/>
-                        <span>User</span>
+                        <span>{currentUser.name}</span>
                     </div>
                     <div className="item">
                         <GroupIcon/>

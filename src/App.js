@@ -10,13 +10,16 @@ import { useContext } from "react";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 import "./style.scss";
 import { DarkModeContext } from "./context/darkModeContext";
+import { OtherModeContext } from "./context/otherModeContext";
+import { AuthContext } from "./context/authContext";
 function App() {
-  const currentUser = false; // User not logged in yet
+  const currentuser = false; // User not logged in yet
   const { darkMode } = useContext(DarkModeContext);
+  const { currentUser } = useContext(AuthContext);
   console.log(darkMode);
   const Layout = () => {
     return (
-      <div className={`theme-${darkMode ? "dark" : "light"}`}>
+      <div className={`theme-${darkMode}`}>
         <NavBar />
         <div style={{ display: "flex" }}>
           <LeftBar />

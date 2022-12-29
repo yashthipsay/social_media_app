@@ -1,4 +1,11 @@
+@import "../../style.scss";
+
+
 .leftbar{
+    
+    @include themify($themes){
+        background-color: themed("bg");
+        color: themed("textColor");
     position:sticky;
     top: 70px;
     height: calc(100vh - 70px);
@@ -44,4 +51,5 @@
             }
         }
     }
+}
 }

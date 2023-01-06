@@ -18,7 +18,7 @@ const RightBar = ()=>{
                     </div>
                     <div className="user">
                         <div className="userinfo">
-                            <img src="https://th.bing.com/th/id/OIP.-nE-rrZY5Ylii9qyvFXbLgHaLC?pid=ImgDet&rs=1" alt="" />
+                            <img src="https://th.bing.com/th/id/OIP.gEHyJOz-Suihh_Z6Pf5fxQHaHZ?w=161&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" />
                             <span>User 2</span>
                         </div>
                         <div className="buttons">
@@ -46,7 +46,7 @@ const RightBar = ()=>{
                         <div className="userinfo">
                             
                             
-                            <img src="https://th.bing.com/th/id/OIP.-nE-rrZY5Ylii9qyvFXbLgHaLC?pid=ImgDet&rs=1" alt="" />
+                            <img src="https://th.bing.com/th/id/OIP.mwpIDn24E2Wab0J_2M9ueQHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" />
                             <span>User 2</span>
                             <div className="online">
                             

@@ -11,8 +11,8 @@ const Login = () => {
         <div className="login">
         <div className = "card">
             <div className="left">
-                <h1>OrBIT</h1>
-                <p>A unique way of analyzing and and gaining insights about the brain. We are taking a step towards disrupting the way aptitude works and provide a unique way of finding what you can take up as your career</p>
+                <h1>FPS</h1>
+                <p>One of the craziest first person shooter games with lots of different modes to try out. Play with a team or play solo. Different themes to play in and customizing options for your player</p>
                 <span>No previous account?</span>
                 <Link to ="/register">
                     <button>Register</button>

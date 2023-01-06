@@ -20,11 +20,11 @@ const NavBar = ()=>{
         <div className="navbar">
             <div className="left">
                 <Link to = "/" style={{textDecoration: "none"}}>
-                    <img src="https://th.bing.com/th/id/OIP._Z2tsSUtsQw2oZGrNNXQiQHaHa?pid=ImgDet&rs=1" alt="" style={{height: "50px", width: "50px"}} />
+                    <img src="https://i0.wp.com/coinyuppie.com/wp-content/uploads/2021/07/162631682664400.png?ssl=1" alt="" style={{height: "50px", width: "50px"}} />
                     </Link>
                     <HomeIcon/>
-                    {darkMode ? <DarkModeIcon onClick={toggle}/> : WbSunnyIcon}
-                    <LightModeIcon/>
+                    {darkMode ? <DarkModeIcon onClick={toggle}/> : <WbSunnyIcon onClick={toggle}/>}
+                    
                     <AppsIcon/>
                     <div className="search">
                         <SearchIcon/>

@@ -2,7 +2,7 @@
     display: flex;
     gap: 10px;
     margin-bottom: 30px;
-    
+    margin-left: 15px;
    
     
     
@@ -17,12 +17,20 @@
             border-radius: 10px;
             object-fit: cover;
             height: 200px;
+            cursor: pointer;
         }
         span{
             position: absolute;
-            padding-left: 10px;
-            padding-top: 7px;
+            width: 55px;
+            margin-top: 7px;
+            margin-left: 10px;
+            padding: 4px 5px 4px 5px;
+            
             font-weight: bold;
+            background-color: wheat;
+            border-radius: 10px;
+            color: black;
+
         }
     }
 }

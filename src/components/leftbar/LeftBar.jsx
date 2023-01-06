@@ -4,8 +4,12 @@ import PersonIcon from '@mui/icons-material/Person';
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import TimerIcon from '@mui/icons-material/Timer';
+import WatchLaterIcon from '@mui/icons-material/WatchLater';
 import { useContext } from "react";
 import { AuthContext } from "../../context/authContext";
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+import RecommendIcon from '@mui/icons-material/Recommend';
 
 const LeftBar = () => {
     const {currentUser} = useContext(AuthContext);
@@ -23,15 +27,15 @@ const LeftBar = () => {
                     </div>
                     <div className="item">
                         <LocalGroceryStoreIcon/>
-                        <span>Friends</span>
+                        <span>Shop</span>
                     </div>
                     <div className="item">
                         <PlayArrowIcon/>
-                        <span>Friends</span>
+                        <span>Feed</span>
                     </div>
                     <div className="item">
                         <TimerIcon/>
-                        <span>Friends</span>
+                        <span>Memories</span>
                     </div>
                 </div>
                 <hr />
@@ -39,20 +43,20 @@ const LeftBar = () => {
                     <span>Your shortcuts</span>
                 
                 <div className="item">
-                        <GroupIcon/>
-                        <span>Friends</span>
+                        <WatchLaterIcon/>
+                        <span>Watch later</span>
                     </div>
                     <div className="item">
-                        <LocalGroceryStoreIcon/>
-                        <span>Friends</span>
+                        <ThumbUpIcon/>
+                        <span>Liked</span>
                     </div>
                     <div className="item">
-                        <PlayArrowIcon/>
-                        <span>Friends</span>
+                        <FavoriteIcon/>
+                        <span>Favorite</span>
                     </div>
                     <div className="item">
-                        <TimerIcon/>
-                        <span>Friends</span>
+                        <RecommendIcon/>
+                        <span>Recommended</span>
                     </div>
                 </div>
                 <hr />
@@ -60,15 +64,15 @@ const LeftBar = () => {
                     <span>Others</span>
                     <div className="item">
                         <LocalGroceryStoreIcon/>
-                        <span>Friends</span>
+                        <span>Some more icons</span>
                     </div>
                     <div className="item">
                         <PlayArrowIcon/>
-                        <span>Friends</span>
+                        <span>Some more icons</span>
                     </div>
                     <div className="item">
                         <TimerIcon/>
-                        <span>Friends</span>
+                        <span>Some more icons</span>
                     </div>
                 </div>
             </div>

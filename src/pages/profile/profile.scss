@@ -1,0 +1,97 @@
+@import "../../style.scss";
+
+.profile{
+    @include themify($themes){
+        flex:4;
+        padding-left: 10px;
+        
+        background-color: themed("border");
+        .images{
+            width: 100%;
+            height: 300px;
+            position: relative;
+            .cover{
+                width: 100%;
+                height: 100%;
+
+            }
+            .profilePic{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                position: absolute;
+                z-index: 1;
+
+                // For automatically centering
+                left: 0;
+                right: 0;
+                margin: auto;
+                // For automatically centering
+
+                top: 200px;
+
+
+            }
+        }
+        .profileContainer{
+            background-color: themed("bg");
+            color: themed("textColor");
+            padding: 20px 70px;
+        .uinfo{
+            height: 180px;
+            box-shadow: 2px 4px 24px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 4px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 24px 0px rgba(0,0,0,0.75);
+border-radius: 20px;
+padding: 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+.left{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+}
+.center{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 40px;
+    gap: 20px;
+
+    span{
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .info{
+        display:flex;
+    }
+
+    button{
+        width: 100px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(70, 95, 185);
+        font-weight: bold;
+        color: white;
+    }
+
+}
+.right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+
+        }
+
+    }
+    }
+}

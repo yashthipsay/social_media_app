@@ -60,14 +60,15 @@
         }
         .right{
             flex:1;
-            background:linear-gradient(rgba(200, 100, 200, 0.4), rgba(200, 100, 200, 0.4)), url("https://cdn.wallpapersafari.com/93/42/t5xVv7.jpg");
+            background:linear-gradient(rgba(200, 100, 200, 0.4), rgba(200, 100, 200, 0.4)), url("https://th.bing.com/th/id/R.15e8357c5736eebbfabb8d2eb000c771?rik=s2iZpPGBRNP7tw&riu=http%3a%2f%2fwww.hdnicewallpapers.com%2fWalls%2fBig%2fCountries+and+City%2fSultan_Ahmed_Mosque_Night_View_in_Turkey_Country_Images.jpg&ehk=EZ4Dt7Bxeyb9%2fY6TAtA6TRurczIPhLl%2bM5Bc3wr7wJg%3d&risl=&pid=ImgRaw&r=0");
             background-size: cover;
-            background-position: right;
+            background-position: center;
             height: 500px;
             overflow: hidden;
             width: 50%;
             background-size: cover;
             color: white;
+            
             display: flex;
             flex-direction: column;
             padding: 30px;
@@ -78,10 +79,13 @@
             h1{
                 font-size: 100px;
             }
-            p{}
+            p{
+                font-weight: bold;
+            }
             button{
                 width: 50%;
-                align-self: center;background-color: white;
+                align-self: center;
+                background-color: white;
                 border: none;
                 color:rgb(200, 100, 200);
                 font-weight: bold;

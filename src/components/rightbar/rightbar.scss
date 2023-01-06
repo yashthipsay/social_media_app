@@ -2,6 +2,7 @@
 .rightbar{
     
 @include themify($themes){
+    
     background-color: themed("border");
     flex: 3;
     position:sticky;
@@ -11,9 +12,13 @@
     
     &::-webkit-scrollbar{
         display:none;
+        
     }
     .container{
-        
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        border-radius: 10px;
         
         .item{
             background-color: themed("bg");
@@ -23,6 +28,7 @@
 -moz-box-shadow: -17px 19px 27px -15px rgba(0,0,0,0.75);
 margin-left: 15px;
 padding: 30px;
+border-radius: 10px;
 
             span{
                 font-weight: 500;

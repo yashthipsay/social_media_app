@@ -17,8 +17,8 @@ const Register = () => {
                     <button className="button">Create Account</button>
                 </div>
                 <div className="right">
-                    <h1>OrBIT</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit et culpa perspiciatis, saepe asperiores aliquid quisquam atque eaque animi expedita laudantium reprehenderit est, totam eos molestiae quas quia nostrum tempore!</p>
+                    <h1>FPS</h1>
+                    <p>One of the craziest first person shooter games with lots of different modes to try out. Play with a team or play solo. Different themes to play in and customizing options for your player</p>
                     <span>Already have an account ?</span>
                     <Link to="/login">
                     <button>Login</button>

@@ -11,6 +11,25 @@
             height: 40px;
             border-radius: 50%;
             object-fit: cover;
+           
+            
+        }
+
+        .write{
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            margin: 20px 0px;
+
+            input{
+                width: 100%;
+                padding: 10px;
+                border: 1px solid themed("border");
+                background-color: transparent;
+                color: themed("textColor");
+                border-radius: 10px;
+            }
         }
 
         .comment{
@@ -24,14 +43,15 @@
                 flex-direction: column;
                 gap: 3px;
                 align-items: flex-start;
-                width: 600px;
+                width: 550px;
                 span{
                     font-weight: 500;
                 }
                 
             }
             .date{
-                flex: 1;
+                flex: 2;
+                width: 40px;
                 align-self: center;
             } 
             }

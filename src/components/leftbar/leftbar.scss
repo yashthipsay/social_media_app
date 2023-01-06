@@ -6,23 +6,25 @@
     @include themify($themes){
         background-color: themed("bg");
         color: themed("textColor");
+        
     position:sticky;
     top: 70px;
     height: calc(100vh - 70px);
     overflow: scroll;
     flex: 2;
+    border-radius: 10px;
     &::-webkit-scrollbar{
         display:none;
     }
     .container{
-       
+        
         hr{
             margin: 10px 5px;
             border: none;
-            width: 100px;
+            width: 1000px;
             background-color: lightgray;
             height: 1px;
-            padding-left: 46px;
+           
         }
         .menu{
             display: flex;

@@ -10,9 +10,9 @@ export const AuthContextProvider = ({ children }) => {
   const login = () => {
     setCurrentUser({
       id: 1,
-      name: "Vedhas Talnikar",
+      name: "USER",
       profilePic:
-        "https://studentambassadors.microsoft.com/Assets/Badge/LevelAlpha.png",
+        "https://i0.wp.com/coinyuppie.com/wp-content/uploads/2021/07/162631682664400.png?ssl=1",
     });
   };
 

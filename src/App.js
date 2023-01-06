@@ -5,7 +5,7 @@ import Profile from "./pages/profile/Profile";
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
-import { Navigate } from "react-router-dom";
+import { Navigate, Outlet } from "react-router-dom";
 import { useContext } from "react";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 import "./style.scss";
@@ -19,7 +19,7 @@ function App() {
   console.log(darkMode);
   const Layout = () => {
     return (
-      <div className={`theme-${darkMode}`}>
+      <div className={`theme-${darkMode ? "dark" : "light"}`}>
         <NavBar />
         <div style={{ display: "flex" }}>
           <LeftBar />
